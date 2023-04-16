@@ -48,7 +48,7 @@ app.use(express.static("timeswamp"))
 
 app.get("/", (req, res) => {
 
-    res.send("http://localhost:9000/static to create timestamp file")
+    res.send("Welcome sucessfully connected add /static  e.g http://localhost:9000/static to create timestamp file")
 })
 
 app.get("/static", (req, res) => {
